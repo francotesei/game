@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Courier New';
+  src: url('./cour.ttf'); /* IE9 Compat Modes */
+
+}
+
+.App-header {
+  padding-top: 10%;
+  font-family: Courier;
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
