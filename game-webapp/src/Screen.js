@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
-import aa from "./lespaulcita.jpg"
+import aa from "./lespaulcita.jpg";
+import Api from "./api";
+
 export default class Screen extends Component {
+  constructor(props){
+    super(props)
+  }
+
+   componentWillMount(){
+     Api.health().then(x => console.log(x))
+  }
 
 render(){
   return(
   <div className="container">
-
   <div className="row">
   <div className="col-md-2"></div>
   <div className="col-md-8">
