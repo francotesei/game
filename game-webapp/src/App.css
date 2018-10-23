@@ -2,11 +2,7 @@
   text-align: center;
 }
 
-@font-face {
-  font-family: 'Courier New';
-  src: url('./cour.ttf'); /* IE9 Compat Modes */
 
-}
 
 .App-header {
   padding-top: 10%;
